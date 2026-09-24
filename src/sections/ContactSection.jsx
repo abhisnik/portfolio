@@ -30,14 +30,14 @@ export default function ContactSection() {
       </div>
 
       <a
-        href="/assets/resume/resume.pdf"
+        href={`${import.meta.env.BASE_URL}assets/resume/resume.pdf`}
         target="_blank"
         rel="noopener noreferrer"
         className="contact-resume"
         data-cursor="RESUME"
         onClick={(e) => {
           // Graceful fallback if resume.pdf is not present yet
-          fetch('/assets/resume/resume.pdf', { method: 'HEAD' })
+          fetch(`${import.meta.env.BASE_URL}assets/resume/resume.pdf`, { method: 'HEAD' })
             .then((res) => {
               if (!res.ok) {
                 e.preventDefault();

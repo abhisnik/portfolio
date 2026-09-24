@@ -4,7 +4,7 @@ export const certifications = [
     name: 'Introduction to Cloud Computing',
     issuer: 'Infosys Springboard',
     date: 'March 23, 2026',
-    image: '/assets/certificates/cert-infosys-cloud.pdf',
+    image: `${import.meta.env.BASE_URL}assets/certificates/cert-infosys-cloud.pdf`,
     type: 'pdf',
   },
   {
@@ -12,7 +12,7 @@ export const certifications = [
     name: 'Data Management',
     issuer: 'Sailor Academy',
     date: '',
-    image: '/assets/certificates/cert-sailor-data.pdf',
+    image: `${import.meta.env.BASE_URL}assets/certificates/cert-sailor-data.pdf`,
     type: 'pdf',
   },
   {
@@ -20,7 +20,7 @@ export const certifications = [
     name: 'Effective Time Management',
     issuer: 'Tech Veda',
     date: 'October 24, 2025',
-    image: '/assets/certificates/cert-techveda-etm.png',
+    image: `${import.meta.env.BASE_URL}assets/certificates/cert-techveda-etm.png`,
     type: 'image',
   },
   {

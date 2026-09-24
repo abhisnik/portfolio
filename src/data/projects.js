@@ -29,7 +29,7 @@ export const projects = [
       'Built an AI-powered system that uses voice interaction and OCR to digitize and structure patient information automatically, giving doctors clean, actionable medical summaries.',
     github: 'https://github.com/abhisnik/MediKiosk',
     live: null,
-    image: '/assets/projects/medikiosk.jpg',
+    image: `${import.meta.env.BASE_URL}assets/projects/medikiosk.jpg`,
     color: '#00f0ff',
   },
   {
@@ -61,7 +61,7 @@ export const projects = [
       'Created a full-stack learning portal with structured content, search, filtering, and assignment tracking to streamline the learning experience.',
     github: 'https://github.com/abhisnik/CodeHub',
     live: null,
-    image: '/assets/projects/codehub.jpg',
+    image: `${import.meta.env.BASE_URL}assets/projects/codehub.jpg`,
     color: '#a855f7',
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
       'Built an IoT system combining gas sensors with wireless connectivity to deliver instant Telegram notifications and enable remote monitoring.',
     github: null,
     live: null,
-    image: '/assets/projects/iot-gas.jpg',
+    image: `${import.meta.env.BASE_URL}assets/projects/iot-gas.jpg`,
     color: '#f59e0b',
   },
 ];

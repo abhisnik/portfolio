@@ -39,7 +39,7 @@ export default function AboutSection() {
 
       <div className="about-image-block" data-cursor="VIEW">
         <img
-          src="/assets/images/profile.jpg"
+          src={`${import.meta.env.BASE_URL}assets/images/profile.jpg`}
           alt="Abhishek Kumar Pramanik"
           loading="lazy"
         />
